@@ -13,9 +13,9 @@ import jakarta.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
+// import javax.validation.constraints.Email;
+// import javax.validation.constraints.NotBlank;
+// import javax.validation.constraints.Size;
 
 
 @Entity
@@ -31,22 +31,14 @@ public class User2 {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
-    @Size(max = 20)
+
     private String username;
 
-    @NotBlank
-    @Size(max = 250)
-    @Email
     private String email;
 
-
-    @NotBlank
-    @Size(max = 120)
     private String password;
 
-    @NotBlank
-    @Size(max = 250)
+   
     private String position;
 
 //     @ManyToMany(fetch = FetchType.LAZY)
