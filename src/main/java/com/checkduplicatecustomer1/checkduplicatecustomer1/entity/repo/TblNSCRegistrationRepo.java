@@ -1,4 +1,4 @@
-package com.checkduplicatecustomer1.checkduplicatecustomer1.repository;
+package com.checkduplicatecustomer1.checkduplicatecustomer1.entity.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

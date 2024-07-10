@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.checkduplicatecustomer1.checkduplicatecustomer1.entity.TblSanctionCustomer;
-import com.checkduplicatecustomer1.checkduplicatecustomer1.repository.TblSanctionCustomerRepo;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.entity.repo.TblSanctionCustomerRepo;
 import com.checkduplicatecustomer1.checkduplicatecustomer1.services.TblSanctionCustomerService;
 import com.checkduplicatecustomer1.checkduplicatecustomer1.util.SpecialCahConverter;
 

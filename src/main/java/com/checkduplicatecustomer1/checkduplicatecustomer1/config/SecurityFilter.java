@@ -42,10 +42,13 @@ public class SecurityFilter {
           
                     authConfig.requestMatchers("/error").permitAll();
 
-                    authConfig.requestMatchers(HttpMethod.GET, "/customer/*").hasAuthority(Permission.SEND_ALL_DATA.name());
-                    authConfig.requestMatchers(HttpMethod.GET, "/ncsregistration/*").hasAuthority(Permission.SEND_ALL_DATA.name());
+                    authConfig.requestMatchers(HttpMethod.GET, "/customer/name/*").hasAuthority(Permission.SEND_ALL_DATA.name());
+                    authConfig.requestMatchers(HttpMethod.GET, "/customer/get/name/*").hasAuthority(Permission.SEND_ALL_DATA.name());
+                    authConfig.requestMatchers(HttpMethod.GET, "/customer/sms1Telephone/*").hasAuthority(Permission.SEND_ALL_DATA.name());
+                    authConfig.requestMatchers(HttpMethod.GET, "/ncsregistration/phone/*").hasAuthority(Permission.SEND_ALL_DATA.name());
                     authConfig.requestMatchers(HttpMethod.GET, "/sanction/phone/*").hasAuthority(Permission.SEND_ALL_DATA.name());
-
+                    authConfig.requestMatchers(HttpMethod.GET, "/sanction/fullname/*").hasAuthority(Permission.SEND_ALL_DATA.name());
+                    authConfig.requestMatchers(HttpMethod.GET, "/ncsregistration/fullname/*").hasAuthority(Permission.SEND_ALL_DATA.name());
 
                     authConfig.anyRequest().denyAll();
 

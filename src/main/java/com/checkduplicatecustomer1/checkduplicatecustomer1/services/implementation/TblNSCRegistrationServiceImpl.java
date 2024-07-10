@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.checkduplicatecustomer1.checkduplicatecustomer1.entity.TblNSCRegistration;
-import com.checkduplicatecustomer1.checkduplicatecustomer1.repository.TblNSCRegistrationRepo;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.entity.repo.TblNSCRegistrationRepo;
 import com.checkduplicatecustomer1.checkduplicatecustomer1.services.TblNSCRegistrationService;
 import com.checkduplicatecustomer1.checkduplicatecustomer1.util.SpecialCahConverter;
 
