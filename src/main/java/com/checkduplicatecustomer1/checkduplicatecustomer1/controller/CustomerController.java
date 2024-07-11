@@ -4,9 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-import com.checkduplicatecustomer1.checkduplicatecustomer1.customer.ResponseCustomer;
 import com.checkduplicatecustomer1.checkduplicatecustomer1.services.implementation.CustomerServiceImpl;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.ResponseCustomer;
 
 import org.springframework.http.ResponseEntity;
 

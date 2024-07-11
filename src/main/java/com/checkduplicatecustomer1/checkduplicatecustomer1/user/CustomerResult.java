@@ -1,4 +1,4 @@
-package com.checkduplicatecustomer1.checkduplicatecustomer1.customer;
+package com.checkduplicatecustomer1.checkduplicatecustomer1.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

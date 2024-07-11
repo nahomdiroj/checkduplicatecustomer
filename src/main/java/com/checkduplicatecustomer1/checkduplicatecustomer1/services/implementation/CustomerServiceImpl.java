@@ -4,11 +4,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.checkduplicatecustomer1.checkduplicatecustomer1.customer.Customer;
-import com.checkduplicatecustomer1.checkduplicatecustomer1.customer.CustomerResult;
-import com.checkduplicatecustomer1.checkduplicatecustomer1.repository.CustomerResultRepo;
-import com.checkduplicatecustomer1.checkduplicatecustomer1.customer.CustomerRepository;
+
 import com.checkduplicatecustomer1.checkduplicatecustomer1.services.CustomerService;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.Customer;
+
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.CustomerResult;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.repo.CustomerRepository;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.repo.CustomerResultRepo;
 import com.checkduplicatecustomer1.checkduplicatecustomer1.util.SpecialCahConverter;
 
 import javax.transaction.Transactional;

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.checkduplicatecustomer1.checkduplicatecustomer1.customer.Customer;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.Customer;
 
 @Slf4j
 public class SearcherEngine {

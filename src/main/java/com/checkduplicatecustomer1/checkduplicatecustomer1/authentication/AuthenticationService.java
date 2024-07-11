@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import com.checkduplicatecustomer1.checkduplicatecustomer1.config.JwtService;
 import com.checkduplicatecustomer1.checkduplicatecustomer1.user.User;
-import com.checkduplicatecustomer1.checkduplicatecustomer1.user.UserRepository;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.repo.UserRepository;
 
 @Service
 public class AuthenticationService {

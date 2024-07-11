@@ -11,7 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import com.checkduplicatecustomer1.checkduplicatecustomer1.user.UserRepository;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.repo.UserRepository;
 
 @Component
 public class SecurityBeansInjector {

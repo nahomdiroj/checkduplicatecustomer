@@ -5,7 +5,7 @@ package com.checkduplicatecustomer1.checkduplicatecustomer1.services;
 import java.util.Collection;
 import java.util.List;
 
-import com.checkduplicatecustomer1.checkduplicatecustomer1.customer.Customer;
+import com.checkduplicatecustomer1.checkduplicatecustomer1.user.Customer;
 
 public interface CustomerService {
     Customer create(Customer customer);
